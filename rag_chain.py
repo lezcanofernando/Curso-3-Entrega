@@ -48,7 +48,6 @@ chain = (
     | parser
 )
 
-
-# 6. Función asíncrona que pide la consigna.
+# 6. Función asíncrona que recibe la pregunta y devuelve la respuesta RAG.
 async def get_rag_response(query: str) -> RespuestaRAG:
     return await chain.ainvoke(query)

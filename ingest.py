@@ -1,8 +1,4 @@
 """Ingesta: lee los documentos de data/, los divide en fragmentos y los guarda en ChromaDB.
-
-Uso:
-    python ingest.py            # indexa solo si la base todavía no existe
-    python ingest.py --rebuild  # borra la base y vuelve a indexar todo
 """
 
 import sys

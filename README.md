@@ -43,7 +43,7 @@ chain = (
 4. **Modelo**: Claude (`claude-sonnet-4-5`) con `temperature=0`.
 5. **PydanticOutputParser**: convierte la respuesta en un objeto `RespuestaRAG` con `respuesta` y `referencias`.
 
-La función asíncrona que pide la consigna:
+La función asíncrona 
 
 ```python
 async def get_rag_response(query: str) -> RespuestaRAG:
